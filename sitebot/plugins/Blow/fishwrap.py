@@ -14,7 +14,7 @@
 import sys
 # dont load weechat module 
 sys.modules["weechat"] = ""
-import fish as wcf
+import fish.py as wcf
 
 # output : my public and private key
 if ((len(sys.argv) > 1) and (sys.argv[1] == "DH1080gen")):

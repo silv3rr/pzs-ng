@@ -112,7 +112,8 @@ namespace eval ::ngBot::plugin::Blow {
 	##      https://weechat.org/files/scripts/fish.py
 	##
 	variable blowso ""
-	variable fishpy "pzs-ng/plugins/fishwrap.py"
+	variable fishpy "[file dirname [info script]]/Blow/fishwrap.py"
+	#variable fishpy "pzs-ng/plugins/fishwrap.py"
 	##
 	## NickDb Settings #####################################################
 	##
